@@ -13,7 +13,6 @@ class Db{
 
     protected function connect(){
 
-
         $this->servername = "localhost";
         $this->username   = "root";
         $this->password   = "";
