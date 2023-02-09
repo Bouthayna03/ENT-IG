@@ -51,14 +51,15 @@ ul li a::after{
     width:0;
     height:2px;
     transform: translate(-50%, 5px);
-
-
 }
 ul li a:hover::after{
 width:38%
 }
 .site-conteneur{
-
+    font-size: 70px;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    line-height: 1.2;
     position: absolute;
     bottom: 50%;
     color: skyblue;
@@ -75,14 +76,19 @@ width:38%
 }
 .mylist{
     position: absolute;
-    bottom:40%;
-    padding-left: 800px;
-}
+    bottom:10%;
+    padding-left: 640px;
+    right: 90px;
+} 
 .elem1{
     font-weight: bold;
     padding-left: 15px;
     list-style-type:none;
     font-size: 30px;
+    margin: 12px;
+}
+.cl{
+    color: dimgray;
 }
 .list1 li:not(.elem1){
 font-size:20px;
@@ -95,4 +101,94 @@ hr {
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid SkyBlue;
+}
+
+:root {
+	--main-bg-color: #f0f0f0;
+	--item-hover-bg: SkyBlue;
+	--item-hover-color: #fff;
+	--item-bg-color: #fff;
+	--box-header-bg: SkyBlue;
+	--box-header-color: #fff;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--main-bg-color);
+}
+
+.box {
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+							0 10px 10px rgba(0,0,0,0.22);
+}
+
+.box-header {
+	padding: 10px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--box-header-bg);
+	color: var(--box-header-color);
+}
+
+.list {
+	position: relative;
+	padding: unset;
+	margin: 0;
+	width: 100%;	
+}
+
+.item {
+	list-style: none;
+	padding: 15px 40px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.1);
+	position: relative;
+	background: var(--item-bg-color);
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.item:hover {
+	transform: scale(1.1);
+	z-index: 100;
+	background: var(--item-hover-bg);
+	color: var(--item-hover-color);
+}
+
+.item i {
+	color: var(--item-hover-bg);
+}
+
+.item:hover i {
+	color: var(--item-hover-color);
+}
+
+.right-icon {
+	position: absolute;
+	right: 13px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.left-icon {
+	position: absolute;
+	left: 13px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/**
+**/
+.formation-ini{
+    margin: 12px;
 }
