@@ -81,41 +81,44 @@ ul li a:hover::after{
 }
 .mylist{
     position: absolute;
-    bottom:18%;
-    padding-left: 800px;
+    bottom:20%;
+    padding-left: 850px;
 }
 .elem1{
     font-weight: bold;
     padding-left: 15px;
     list-style-type:none;
     font-size: 30px;
+    color: dimgray;
 }
 .list1 li:not(.elem1){
     font-size:20px;
     list-style-type: none;
     padding-left: 70px;
-    color: dimgray;
+    color: black;
 
 }
 hr {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    margin-right: 10px;
     border: 0;
     border-top: 1px solid SkyBlue;
-    bottom: 80%;
 }
 .list2 li{
     font-weight: bold;
     padding-left: 15px;
     list-style-type:none;
     font-size: 30px;
+    color: dimgray;
+
 }
 .mylist p{
     width:650px;
     text-align: justify-all;
     font-size: 18px;
     font-family: sans-serif;
-    color: dimgray;
+    color: black;
     padding-left: 60px;
 }
 .lilian{
@@ -131,6 +134,7 @@ span{
 .nav-links img{
     padding-left: 6px;
 }
+
 
 
 
