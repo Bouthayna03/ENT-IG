@@ -16,14 +16,15 @@
 }
 nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     padding: 5px 0;
 }
 
 nav ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     flex:1;
     padding-top: 7px;
@@ -36,11 +37,14 @@ ul li{
     margin-right: 20px;
 }
 ul li a{
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     padding: 10px 20px;
     text-decoration: none;
     color: black;
     font-size: medium;
+    font-weight: bold;
 }
 ul li a::after{
     content:'';
@@ -55,7 +59,7 @@ ul li a::after{
 
 }
 ul li a:hover::after{
-width:38%
+    width:38%;
 }
 .site-conteneur{
 
@@ -75,7 +79,7 @@ width:38%
 }
 .mylist{
     position: absolute;
-    bottom:40%;
+    bottom:18%;
     padding-left: 800px;
 }
 .elem1{
@@ -85,9 +89,10 @@ width:38%
     font-size: 30px;
 }
 .list1 li:not(.elem1){
-font-size:20px;
+    font-size:20px;
     list-style-type: none;
     padding-left: 70px;
+    color: dimgray;
 
 }
 hr {
@@ -96,3 +101,35 @@ hr {
     border: 0;
     border-top: 1px solid SkyBlue;
 }
+.list2 li{
+    font-weight: bold;
+    padding-left: 15px;
+    list-style-type:none;
+    font-size: 30px;
+}
+.mylist p{
+    width:650px;
+    text-align: justify-all;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: dimgray;
+    padding-left: 60px;
+}
+.lilian{
+
+    position: absolute;
+    display:flex;
+    bottom: 20%;
+    padding-left: 50px;
+}
+span{
+    font-weight: bold;
+}
+.nav-links img{
+    padding-left: 6px;
+}
+
+
+
+
+
