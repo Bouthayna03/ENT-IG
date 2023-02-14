@@ -1,0 +1,33 @@
+
+.navbar{
+    position: absolute;
+    width: 1335px;
+    height: 74px;
+    left: 53px;
+    top: 24px;
+}
+.nav-link{
+    position: absolute;
+    width: 431px;
+    height: 74px;
+    left: 693px;
+    top: 0px;
+}
+.navbar ul{
+    display:flex;  
+    list-style:none;
+    padding-right: 30px;
+}
+.navbar ul a{
+    display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+}
+.nav-link img{
+    padding-left: 6px;
+}

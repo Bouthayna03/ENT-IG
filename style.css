@@ -6,6 +6,11 @@
     font-family: sans-serif;
     background-image: url("btn.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+body{
+    height: 100%;
 }
 .conteneur{
     position: relative;
@@ -33,7 +38,6 @@ nav ul{
     padding-right: 30px;
     text-align: right;
     list-style-type: none;
-
 }
 ul li{
     margin-right: 20px;
@@ -57,8 +61,6 @@ ul li a::after{
     width:0;
     height:2px;
     transform: translate(-50%, 5px);
-
-
 }
 ul li a:hover::after{
     width:38%;
@@ -128,9 +130,7 @@ hr {
 span{
     font-weight: bold;
 }
-.nav-links img{
-    padding-left: 6px;
-}
+
 
 
 
