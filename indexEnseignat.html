@@ -5,6 +5,7 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="styleEnsei.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <script src="myScriptEnseignant.js"></script>
 </head>
 <body>
@@ -16,7 +17,7 @@
                 <li><a href="index.html">Accueil<img src="images/home.png" width="20" height="15"></a></li>
                 <li><a href="">Formation <img src="images/pen.png" width="20" height="15"></a></li>
                 <li onclick="f()"><a href="#footer">Contact <img src="images/enveloppe.png" width="20" height="15"></a></li>
-                <li class="connexion" id="connButton" onclick="m()" ><a href="#" class="conn_barmenu"  >Connexion</a></li>
+
             </ul>
             </nav>
         </div>
@@ -24,21 +25,27 @@
             <div class="home_container">
                 <h1>ENT-Génie Informatique</h1>
                 <p>Bienvenue sur notre Espace Numérique de Travail! Collaborons pour<br> une meilleure expérience d'apprentissage. </p>
-                <form action="" class="loginForm" id="form">
-                    <div class="login">
-                        <label for="email">Entrer votre email academique :</label>
-                        <input type="email" placeholder="Email" size="40" id="email" name="email"  required>
-                        <label for="">Enter votre mot de passe :</label>
-                        <input type="password" placeholder="Mot de passe" size="40" id="password" name="password" required>
-                    </div>
-                    <div>
-                        <input type="submit" value="Connexion" class=" login" id="loginButton">
-                        
-                    </div>
-                </form>    
             </div>
             
         </div>
+        <div id="mon_menu">
+            <ul id="menu-navigation-principale" class="menu">
+                <li><a title="Voulez-vous consulter votre profil ?" href="#"><i class="fa fa-th" aria-hidden="true"></i> Consulter le profil</a></li>
+                <li id="menu-profil" class="menu-prof"><a title="Voulez-vous modifier votre profil ?" href="#">Modifier Le Profil</a></li>
+                <li id="menu-note" class="menu-resultat"><a title="Voulez-vous gérer des résultats ?  " href="#">Gérer les résultats</a></li>
+                <li><a title=" Voulez-vous ajouter un résultat ?" href="#">Ajouter un résultat</a></li>
+                <li><a title="Voulez-vous modifier un résultat ?" href="#">Modifier un résultat</a></li>
+                <li id="menu-absence" class="menu-abs"><a title="Voulez-vous gérer les absences ?" href="#">Gérer les absneces</a></li>
+                <li><a title="Voulez-vous prendre l'absnece ?" href="#">Prendre une absence</a></li>
+                <li><a title="Voulez-vous mettre à jour l'absence ?" href="#">Mettre à jour une absence</a></li>
+                <li id="menu-cours" class="menu-crs"><a title="Voulez-vous gérer les cours ?" href="#">Gérer les cours</a></li>
+                <li><a title="Voulez-vous consulter les cours diffusés ?" href="#"> Les cours diffusés</a></li>
+                <li><a title="Voulez-vous Consulter les cours à diffuser ?" href="#"> Les cours à diffuser</a></li>
+                <li><a title="Voulez-vous vous déconnecter" href="#">Déconnexion</a></li>
+
+            </ul>
+        </div>
+
     </header>
     <footer id="footer">
         <div class="top-footer">
