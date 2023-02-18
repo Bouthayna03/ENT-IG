@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styleEnsei.css">
+    <script src="myScriptEnseignant.js"></script>
+</head>
+<body>
+    <header >
+        <div class="container_nav">
+            <a href="" title="Accueil"><img  id="ent_logo" src="logo/1.png" alt="logo"></a>
+            <nav>
+            <ul>
+                <li><a href="index.html">Accueil<img src="images/home.png" width="20" height="15"></a></li>
+                <li><a href="">Formation <img src="images/pen.png" width="20" height="15"></a></li>
+                <li onclick="f()"><a href="#footer">Contact <img src="images/enveloppe.png" width="20" height="15"></a></li>
+                <li class="connexion" id="connButton" onclick="m()" ><a href="#" class="conn_barmenu"  >Connexion</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="home">
+            <div class="home_container">
+                <h1>ENT-Génie Informatique</h1>
+                <p>Bienvenue sur notre Espace Numérique de Travail! Collaborons pour<br> une meilleure expérience d'apprentissage. </p>
+                <form action="" class="loginForm" id="form">
+                    <div class="login">
+                        <label for="email">Entrer votre email academique :</label>
+                        <input type="email" placeholder="Email" size="40" id="email" name="email"  required>
+                        <label for="">Enter votre mot de passe :</label>
+                        <input type="password" placeholder="Mot de passe" size="40" id="password" name="password" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="Connexion" class=" login" id="loginButton">
+                        
+                    </div>
+                </form>    
+            </div>
+            
+        </div>
+    </header>
+    <footer id="footer">
+        <div class="top-footer">
+        <img src="images/contact.png" alt="contact" id="contactimg">
+        </div>
+        <div class="contact_footer">
+            <span class="contact-footer"><img src="images/location.png" alt="img" class="footer_img"><a href="https://www.google.com/search?q=est+oujda+adresse&ludocid=5919599271405239609&sa=X&ved=2ahUKEwjCv7DQho79AhUI_rsIHWNzDfAQ6BN6BAhLEAI&biw=1422&bih=720&dpr=1.35#" target="_blank">Adresse : Complexe universitaire Al Qods, J4X3+J7H BP 473, Oujda 60000</a></span>
+            <span class="contact-footer"><img src="images/phone.png" class="footer_img" alt="img"><p>05365-00224</p></span>
+            <span class="contact-footer"><img src="images/mail.png" class="footer_img" alt="img"><p>xxxxxx@ump.ac.ma</p></span>
+            <span class="contact-footer"><p>Copyright © 2023</p><a href=""><img src="images/twitter.png" alt="img" class=" social"></a>
+                <a href=""><img src="images/facebook-social-logo.png" alt="img" class="social"></a>
+            </span>
+        </div>
+        <form action="" class="contact-us-container" id="contactForm">
+            <input type="text" name="nom" size="40" placeholder="Nom complete" required>
+            <input type="email" name="email" size="40" placeholder="Email" required>
+            <input type="text" name="objet" placeholder="Objet" size="40" required>
+            <textarea name="message" cols="40" rows="10"placeholder="Entrer votre message"  required></textarea>
+            <input type="submit" value="Envoyer"class="connexion">
+        </form>
+    </footer>
+
+</body>
+</html>
