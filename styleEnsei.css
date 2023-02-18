@@ -61,7 +61,7 @@ padding-top: 0px;
 #mon_menu ul li {
     text-align:center;
     border: 1px solid rgba(159, 155, 155, 0.308);
-     background-color:rgb(173,216,230);
+     background-color:rgba(159, 155, 155, 0.308);
     padding:15px 15px;
     text-align: justify;
     height: 30px;
